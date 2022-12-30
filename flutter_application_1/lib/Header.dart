@@ -11,9 +11,15 @@ class Header extends StatelessWidget{
             BackWeather(),
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.only(bottom:150.0),
-              child: const Text("Hola mundo")
+              margin: EdgeInsets.only(bottom:350.0),
+              child: const Text("Hola mundo", style: const TextStyle(color: BackBone, fontSize: 55.0, fontFamily: 'RobotoMono'),)
+            ),
+            Container(
+              alignment: Alignment.center,
+              margin: EdgeInsets.only(bottom: 180.0),
+              child: const Text("Bienvenido", style: const TextStyle(color: BackGreen, fontSize: 30.0, fontFamily: 'RobotoMono'),),
             )
+            
           ],
       ),
     );
