@@ -18,7 +18,10 @@ class Header extends StatelessWidget{
               alignment: Alignment.center,
               margin: EdgeInsets.only(bottom: 180.0),
               child: const Text("Bienvenido", style: const TextStyle(color: BackGreen, fontSize: 30.0, fontFamily: 'RobotoMono'),),
-            )
+            ), 
+            
+            Container(alignment: Alignment.center, margin: EdgeInsets.only(bottom: 20.0), child: OutlinedButton(onPressed:() {}, child: const Text("Este es un boton"),
+            ) ,)
             
           ],
       ),

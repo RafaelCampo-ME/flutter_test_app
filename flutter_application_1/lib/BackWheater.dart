@@ -9,7 +9,7 @@ class BackWeather extends StatelessWidget {
         children: <Widget> [ 
           GradientBack(),
           new Positioned(
-            bottom:0.0,
+            bottom:0.0, 
             child: Container (
             width: MediaQuery.of(context).size.width,
             height: 250.0,
