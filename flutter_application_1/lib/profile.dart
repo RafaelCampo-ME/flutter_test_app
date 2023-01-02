@@ -13,7 +13,7 @@ static const routeName = "/profile";
       body: Column(
         children: [
           BackWeather(),
-          SizedBox(height: 40.0, child: ProfileHeader()),
+          SizedBox(height: 70.0, child: ProfileHeader()),
           ElevatedButton(
                         onPressed: null /*Aun no hace nada*/ , 
                         child: const Text('vamos a la pantalla de inicio')
